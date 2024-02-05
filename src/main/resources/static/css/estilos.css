@@ -1,0 +1,81 @@
+* {
+    background-color: black
+}
+
+#mainHeader {
+    font-size: 30px;
+    font-family: fantasy;
+    color: crimson;
+    padding: 30px;
+    text-align: center;
+    outline-color: crimson;
+    outline-width: 5px;
+    outline-style: groove;
+}
+
+#mainHeader a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mainHeader a:hover{
+    color: darkviolet;
+    transition: 1s;
+}
+
+#subHeader {
+    font-size: 30px;
+}
+
+#redAccent {
+    color: crimson;
+    font-weight: bolder;
+}
+
+#bandName {
+    color: darkviolet;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#txtParagraph {
+
+    font-size: 15px;
+    text-align: left;
+}
+
+.container {
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menuList {
+    list-style: none;
+    font-style: italic;
+    padding-left: 0;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover{
+
+    color: darkviolet;
+    transition: 1s;
+}
+
+a:active{
+
+    background-color: red;
+    color: blue;
+}
+
